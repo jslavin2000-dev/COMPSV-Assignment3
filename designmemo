@@ -1,0 +1,5 @@
+I think a stack makes the most sense for undo and redo because it works in Last In, First Out order. This means the last action someone does is the first action that gets removed. That works well for undo because if I make a mistake, I usually want to undo the most recent thing I did first. The redo stack works the same way by holding the actions that were undone so they can be added back if needed.
+
+A queue is better for the help desk because it works in First In, First Out order. The first customer who gets in line should be the first customer that gets helped. This keeps everything in order and makes it fair for the people waiting.
+
+My code is different from Python's built in lists because I made the stack and queue myself using Nodes. Each Node stores a value and points to the next Node. The stack keeps track of the top, while the queue keeps track of the front and rear. Python lists already have built in tools that make this easier, but making it myself helped me understand how stacks and queues actually work and why they are useful for different situations.
